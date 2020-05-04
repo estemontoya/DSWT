@@ -1,0 +1,45 @@
+section{
+  padding: 20px;
+  max-width: 100%;
+  background-color: blue;
+}
+
+.borde{
+  border: 1px #000 solid;
+  text-align: center;
+  height: 50px;
+}
+
+ .slider-height{
+   height: 100vh;
+ }
+ @media(max-width:1024px){
+   [class*="slider-height"] {
+       height: 100%;
+   }
+}
+
+.header {
+  background: url("../../assets/img/portfolio/comics.jpg"),#C4C4C4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.navegacion {
+  background:
+}
+
+h1 {
+  position: relative;
+  text-align: center ;
+  font-family: Bangers;
+  font-style: normal;
+  font-size: 400%;
+  color: #F2F2F2;
+  text-shadow: -2px -2px 1px #759797,
+                -2px 2px 1px #759797,
+                -2px 2px 1px #759797,
+                2px -2px 1px #759797;
+}
