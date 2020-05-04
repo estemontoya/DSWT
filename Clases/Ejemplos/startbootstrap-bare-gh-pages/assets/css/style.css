@@ -1,0 +1,37 @@
+section {
+  background-color: blue;
+  padding: 15px;
+  margin: 100px;
+}
+
+section:nth-child(even) {
+  background-color: violet;
+}
+
+.img{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border: 4px solid black;
+  background-image: url("../../assets/img/imagen.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.btn-new:hover {
+  padding: 5px;
+  color: black ;
+  background-color:white;
+  border-radius: 0PX !important;
+  border: 2px solid white;
+}
+.btn-new {
+  padding: 5px;
+  background-color:transparent;
+  border-radius: 0PX !important;
+  border: 2px solid black;
+  color: white ;
+  
+}
+
+
