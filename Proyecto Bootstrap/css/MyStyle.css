@@ -1,7 +1,6 @@
 section{
   padding: 20px;
   max-width: 100%;
-  background-color: blue;
 }
 
 .borde{
@@ -18,28 +17,55 @@ section{
        height: 100%;
    }
 }
-
-.header {
-  background: url("../../assets/img/portfolio/comics.jpg"),#C4C4C4;
-  background-size: cover;
+.options-background {
+  background: url("../../assets/img/portfolio/fondo1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+
 }
 
-.navegacion {
-  background:
+.option-item{
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
 }
 
-h1 {
+h1{
+  font-size: 400%;
+}
+h2 {
+  font-size: 200%;
+}
+h1,h2,h5 {
   position: relative;
   text-align: center ;
   font-family: Bangers;
   font-style: normal;
-  font-size: 400%;
   color: #F2F2F2;
   text-shadow: -2px -2px 1px #759797,
                 -2px 2px 1px #759797,
                 -2px 2px 1px #759797,
                 2px -2px 1px #759797;
+}
+h5{
+  font-size: 200%;
+  text-shadow: -2px -2px 1px black,
+                -2px 2px 1px black,
+                -2px 2px 1px black,
+                2px -2px 1px black;
+}
+
+p {
+  position: relative;
+  text-align: center ;
+  color: black;
+  font-family: Montserrat;
+  font-style:bold;
+  font-size: 120%;
+}
+
+.sombra{
+  background-color:rgba(218,233,242,0.6); /* rgbA */
 }
