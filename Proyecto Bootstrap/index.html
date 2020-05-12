@@ -26,19 +26,6 @@
 </head>
 
 <body id="page-top">
-    <!-- Navigation
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger navegacion" href="#page-top">Montoya Maya Esteban</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Otra <i class="fas fa-bars"></i></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
     <!-- Carrusel Principal-->
 
@@ -92,9 +79,10 @@
             <div class="row">
 
                 <!-- Portfolio Item 1-->
+
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto option">
-                        <img class="option-item" src="assets/img/portfolio/Me.svg">
+                      <img class="option-item" src="assets/img/portfolio/Me.svg" alt="Portafolio"/>
                     </div>
                     <h2>Acerca de mí </h2>
                 </div>
@@ -102,14 +90,12 @@
                 <!-- Portfolio Item 2-->
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto option">
-                      <center>
-                        <img class="option-item" src="assets/img/portfolio/Portfolio.svg">
-                      </center>
+                        <a title="Portafolio"href="portafolio.html"><img class="option-item" src="assets/img/portfolio/Portfolio.svg"/></a>
                     </div>
                     <h2>Portafolio</h2>
                 </div>
                 <!-- Portfolio Item 3-->
-                <div class="col-md-6 col-lg-4 mb-5">
+                <div class="col-md-6 col-lg-4 mb-5" data-toggle="modal" data-target="#Contacto">
                     <div class="portfolio-item mx-auto option">
                       <center>
                         <img class="option-item" src="assets/img/portfolio/Directory.svg">
@@ -120,6 +106,38 @@
             </div>
         </div>
     </section>
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="Contacto" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Contacto</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Me pueden contactar por medio de las siguientes redes sociales:</p>
+                                <p class="mb-5"> <strong>Facebook: </strong>Esteban Montoya Maya</p>
+                                <p class="mb-5"> <strong>Whatsapp: </strong>5548364465</p>
+                                <p class="mb-5"> <strong>Correo: </strong>estebanmontoya@comunidad.unam.mx</p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Regresar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>

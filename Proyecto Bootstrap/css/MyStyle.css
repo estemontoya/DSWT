@@ -1,12 +1,42 @@
-section{
-  padding: 20px;
-  max-width: 100%;
+.fuente {
+  position: relative;
+  text-align: center ;
+  font-size: 500px%;
+  font-family: Bangers;
+  font-style: normal;
+  color: #F2F2F2;
+  text-shadow: -2px -2px 1px black,
+                -2px 2px 1px black,
+                -2px 2px 1px black,
+                2px -2px 1px black;
 }
-
+.fuente:hover{
+  color: #9BD5E1;
+}
+.colores {
+  font-family: Montserrat;
+  color: black;
+}
+.colores:hover{
+  color: #9BD5E1;
+}
 .borde{
-  border: 1px #000 solid;
+  border: 10px #000 solid;
   text-align: center;
   height: 50px;
+}
+myBar {
+  background: white;
+}
+.barraNav {
+  background-color: white !important;
+  margin: 20px;
+  border-radius: 0.5px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 18px;
+  color: white;
 }
 
  .slider-height{
@@ -23,7 +53,12 @@ section{
   background-size: cover;
 
 }
+.portafolio-background {
+  background-image: url("../assets/img/portfolio/fondo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
 .option-item{
   width: 80%;
   height: 80%;
@@ -34,6 +69,18 @@ section{
 
 h1{
   font-size: 400%;
+}
+h1.centro{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ min-height: 70vh;
+}
+.banner{
+  background-image: url("../assets/img/portfolio/fondo2.jpg");
+  background-size: cover;
+  height: 500px;
+
 }
 h2 {
   font-size: 200%;
@@ -56,6 +103,14 @@ h5{
                 -2px 2px 1px black,
                 2px -2px 1px black;
 }
+h4 {
+  position: relative;
+  text-align: center ;
+  font-family: Montserrat;
+  font-style: normal;
+  color: white;
+  text-shadow: -2px -2px 1px black;
+}
 
 p {
   position: relative;
@@ -68,4 +123,23 @@ p {
 
 .sombra{
   background-color:rgba(218,233,242,0.6); /* rgbA */
+}
+
+.card{
+  margin: 10%;
+
+}
+
+.btn-color {
+  margin: auto;
+  text-align: center;
+  background-color:  #000099;
+  border-color:  #000099;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-color:hover {
+  background-color:  #9BD5E1;
+  border-color:  #000099;
 }
