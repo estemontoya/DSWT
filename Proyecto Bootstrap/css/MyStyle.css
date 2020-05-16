@@ -57,6 +57,12 @@ myBar {
   background-image: url("../assets/img/portfolio/fondo3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.acerca-background {
+  background-image: url("../assets/img/portfolio/fondo4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 
 }
 .option-item{
@@ -96,6 +102,27 @@ h1,h2,h5 {
                 -2px 2px 1px #759797,
                 2px -2px 1px #759797;
 }
+h1.informacion{
+  font-family: Poppins;
+  border: 0px #000 solid;
+  text-shadow: 0px 0px 0px transparent;
+  font-size: 200%;
+  text-align: left;
+}
+h2.informacion{
+  font-family: Poppins;
+  border: 0px #000 solid;
+  text-shadow: 0px 0px 0px transparent;
+  font-size: 150%;
+  text-indent: 5%;
+  font-family: Hind;
+  text-align: left;
+}
+h6{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight:lighter;
+}
 h5{
   font-size: 200%;
   text-shadow: -2px -2px 1px black,
@@ -127,7 +154,6 @@ p {
 
 .card{
   margin: 10%;
-
 }
 
 .btn-color {
@@ -142,4 +168,33 @@ p {
 .btn-color:hover {
   background-color:  #9BD5E1;
   border-color:  #000099;
+}
+
+.bloque-acerca{
+  margin-top: 3%;
+  background-color: rgba(255,255,255,0.8);
+
+}
+.img-portada{
+  width: 80%;
+  border: 1px #000 solid;
+
+}
+.informacion {
+  font-style: Poppins;
+  color: black;
+  text-align: left;
+  font-weight:bolder;
+}
+.btn-collapse{
+  font-family: Poppins;
+  font-size: 150%;
+  font-family: Hind;
+  font-size: 90%;
+  text-align: left;
+  color: black;
+  font-weight:bolder;
+}
+.btn-collapse:hover{
+  color: #9BD5E1;
 }
